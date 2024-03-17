@@ -1,0 +1,143 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7e1d9; /* Color de fondo crema */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .navbar {
+    background-color: #e5989b; /* Color de fondo rosado */
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .navbar li a {
+    text-decoration: none;
+    color: #9ee4e4; /* Color del texto en los enlaces */
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar li a:hover {
+    background-color: #b5838d; /* Cambia de color al pasar el mouse sobre los enlaces */
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .image-container img {
+    max-width: 45%;
+    height: auto;
+  }
+  
+  h1, h2 {
+    color: #8d5a63; /* Color del texto principal */
+  }
+  
+  .section {
+    background-color: #fff; /* Color de fondo blanco */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .section h2 {
+    color: #bf6b73; /* Color del texto principal */
+  }
+  
+  .section p {
+    color: #000000; /* Color del texto secundario */
+  }
+  
+  .section.contact-info p {
+    color: #000; /* Color del texto de contacto */
+  }
+  
+  .section.contact-info a {
+    color: #bf6b73; /* Color de los enlaces de contacto */
+  }
+  
+  .review {
+    background-color: #fff; /* Color de fondo blanco */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .review h3 {
+    color: #bf6b73; /* Color del texto principal */
+  }
+  
+  .review p {
+    color: #5e5e5e; /* Color del texto secundario */
+  }
+  
+  .btn-outline-danger {
+    color: #bf6b73; /* Color del texto del botón */
+    border-color: #bf6b73; /* Color del borde del botón */
+  }
+  
+  .btn-outline-danger:hover {
+    background-color: #f397a1; /* Cambia de color al pasar el mouse sobre el botón */
+    color: #fff; /* Cambia el color del texto al pasar el mouse sobre el botón */
+  }
+  .owner-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .owner-review {
+    margin-top: 20px;
+  }
+  
+  .owner-review h2 {
+    color: #bf6b73;
+  }
+  
+  .owner-review p {
+    color: #5e5e5e;
+  }
+  .owner-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .owner-image {
+    max-width: 200px; /* Ajusta el tamaño de la imagen según sea necesario */
+    border-radius: 50%; /* Para hacerla circular */
+    margin-bottom: 20px; /* Espaciado inferior */
+  }
+  
+  .owner-review {
+    max-width: 80%; /* Ajusta el ancho del contenedor de la reseña */
+  }
+  
+  .owner-review h2 {
+    color: #bf6b73;
+  }
+  
+  .owner-review p {
+    color: #000000;
+  }
+    
